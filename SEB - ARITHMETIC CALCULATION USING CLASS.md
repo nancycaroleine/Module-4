@@ -33,13 +33,27 @@ To write a Python program to perform addition and division operations using a cl
 ---
 
 ### PROGRAM
+212223060181
+
+NANCY CAROLEINE P R
 
 ```
-
-
-
+class rectangle:
+    def __init__(self,length,width):
+        self.length= length
+        self.width = width
+    def area_rec(self):
+        return self.length* self.width
+l=int(input())
+w=int(input())
+res = rectangle(l, w)
+print(res.area_rec())
 ```
 
 ### OUTPUT
 
+<img width="823" height="327" alt="image" src="https://github.com/user-attachments/assets/eff0c738-3686-4ac2-8488-2d72d84ba64b" />
+
 ### RESULT
+
+Thus, the python code is written and executed successfully.
