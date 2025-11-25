@@ -28,13 +28,26 @@ To write a Python program that reads a file and counts the frequency of each cha
 ---
 
 ### PROGRAM
+212223060181
 
+NANCY CAROLEINE P R
 ```
-
+from collections import defaultdict
+def create_file(file_path, content):
+    with open(file_path, 'w') as file:
+        file.write(content)
+def char_frequency(file_path):
+    char_count = defaultdict(int)
+    with open(file_path,'r') as file:
+       content = file.read()
+       for char in content:
+           char_count[char] += 1
+    return char_count       
 ```
-
-
 ### OUTPUT
 
+<img width="945" height="117" alt="image" src="https://github.com/user-attachments/assets/663a8865-b1ee-43ad-9811-a1950ce943d9" />
 
 ### RESULT
+
+Thus, the python code is written and executed successfully.
