@@ -23,12 +23,25 @@ To create a Python program that prompts the user for a list of grades separated 
 ### PROGRAM
 
 ```
-Reg.No
-Name
-Add Your Code Here
+Reg.No:212223060181
+Name:NANCY CAROLEINE P R
+
+try:
+    a = input()
+    b = input()
+    if a.isdigit() and b.isdigit():
+        print(int(a) + int(b)) 
+    else:
+        raise TypeError
+except TypeError:
+    print("cannot add integer with string")
 
 ```
 
 ### OUTPUT
 
+<img width="833" height="395" alt="image" src="https://github.com/user-attachments/assets/9790b61c-39a4-4794-b51c-d6e5ffa86d12" />
+
 ### RESULT
+
+Thus, the python code is written and executed successfully.
